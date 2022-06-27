@@ -1,0 +1,16 @@
+{
+  "name": "20220627_avery_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i input.css -o output.css",
+    "build:watch": "npx tailwindcss -i input.css -o output.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}
